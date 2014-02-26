@@ -46,7 +46,7 @@
         exmpp_socket,
 	ejabberd_socket,
         stringprep,
-        tls,
+        compat_tls,
         xml,
         xml_stream
     ]},

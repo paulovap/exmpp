@@ -1,5 +1,5 @@
 %%%----------------------------------------------------------------------
-%%% File    : tls.erl
+%%% File    : compat_tls.erl
 %%% Author  : Alexey Shchepin <alexey@process-one.net>
 %%% Purpose : Interface to openssl
 %%% Created : 24 Jul 2004 by Alexey Shchepin <alexey@process-one.net>
@@ -27,7 +27,7 @@
 %% @doc
 %% This <strong>{@module}</strong> module is for compatibility with ejabberd.
 
--module(tls).
+-module(compat_tls).
 -author('alexey@process-one.net').
 
 -export([start/0, start_link/0,
